@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position</title>
+    <style>
+      div {
+        height: 100px;
+        width: 100px;
+      }
+      .card1 {
+        background-color: red;
+        position: static;
+        left: 100px;
+      }
+      .card2 {
+        background-color: orange;
+        position: relative;
+        left: 100px;
+      }
+      .card3 {
+        background-color: blue;
+        position: absolute;
+        /* it will only work on html base */
+        left: 100px;
+      }
+      .card4 {
+        background-color: aquamarine;
+        position: fixed;
+      }
+      pre {
+        font-size: 30px;
+      }
+      #card5 {
+        background-color: blueviolet;
+        position: sticky;
+        top: 10rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="card1"></div>
+      <div class="card2"></div>
+      <div class="card3"></div>
+      <div class="card4"></div>
+      <pre>
+Lorem ipsum, dolor sit amet consectetur 
+adipisicing elit. Illum enim
+ officiis excepturi
+  doloribus, 
+liber
+Lorem ipsum dolor sit amet 
+consectetur adipisicing elit.
+ Omnis dicta tenetur deleniti vitae nihil. Unde,
+  deleniti voluptas, modi repellendus ipsam debitis
+   vero aut ipsa distinctio, 
+tempore assumenda culpa. Architecto, molestiae.
+o iusto reiciendis placeat exercitationem? 
+Et 
+totam
+ incidunt fuga aliquid voluptates.
+ Dolore optio possimus velit laudantium eius.
+ </pre
+      >
+
+      <div id="card5">sticky</div>
+
+      <pre>
+Lorem ipsum dolor sit
+ amet consectetur adipisicing elit.
+     Voluptas magni ab earum nulla perspiciatis tenetur
+      optio voluptates,
+      totam hic ducimus
+       suscipit
+       Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Odit ab similique unde voluptates dolores 
+        doloribus nobis sint vel? Corporis, aut! 
+        Ullam provident soluta,
+        cum similique ratione itaque aut quos cumque.
+       corrupti blanditiis voluptatum a quaerat 
+      odit ea est voluptatem!</pre
+      >
+
+      <pre>
+Lorem ipsum dolor sit amet consectetur
+ adipisicing elit. 
+    Reiciendis, voluptate 
+    vitae adipi
+    sci est dolorem error modi itaque,
+     praesentium perferendis
+      voluptatibus aut eius similique repudiandae?
+     Doloremque 
+     id consequatur
+      mollitia ducimus earum.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       Delectus blanditiis eaque optio quam animi inventore, 
+       esse dolore non, 
+       nihil dignissimos laborum eligendi hic eveniet quas!
+        Quas deleniti cupiditate sit. 
+      Nobis?</pre
+      >
+    </div>
+  </body>
+</html>
