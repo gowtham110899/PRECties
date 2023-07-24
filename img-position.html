@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box10 {
+        filter: blur(4px);
+      }
+      .box1 {
+        filter: drop-shadow(8px 8px 10px rgb(145, 189, 197));
+      }
+      .box2 {
+        filter: saturate(7);
+      }
+      .box3 {
+        filter: sepia(100%);
+      }
+      .box4 {
+        filter: opacity(50%);
+      }
+      .box5 {
+        filter: invert(100%);
+      }
+      .box6 {
+        filter: hue-rotate(180deg);
+      }
+      .box7 {
+        filter: grayscale(100%);
+      }
+      .box8 {
+        filter: brightness(0.3);
+      }
+      .box9 {
+        filter: contrast(180%);
+      }
+      .box11 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      .box11:hover {
+        transform: rotateY(180deg);
+      }
+
+      .box12 {
+        object-fit: contain;
+      }
+      .box13 {
+        object-fit: cover;
+        object-position: 30% 40%;
+      }
+      .box14 {
+        object-fit: fill;
+      }
+      .box15 {
+        object-fit: none;
+      }
+      .container {
+        position: relative;
+        width: 50%;
+      }
+      .box16 {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .overlay {
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: 0.5s ease;
+        background-color: blue;
+      }
+      .text {
+        color: rgb(222, 226, 227);
+        font-size: larger;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 40%;
+      }
+      .container:hover .overlay {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="coffee-1284041_640.jpg" alt="" class="box1" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box2" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box3" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box4" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box5" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box6" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box7" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box8" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box9" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box10" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box11" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box12" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box13" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box14" /><br /><br />
+    <img src="coffee-1284041_640.jpg" alt="" class="box15" /><br /><br />
+    <div class="container">
+      <img src="coffee-1284041_640.jpg" alt="" class="box16" /><br /><br />
+
+      <div class="overlay">
+        <div class="text">this is coffee</div>
+      </div>
+    </div>
+  </body>
+</html>

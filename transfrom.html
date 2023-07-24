@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transfrom</title>
+    <style>
+      .red {
+        background-color: darkred;
+        height: 200px;
+        width: 200px;
+        margin: 100px 100px;
+        /* 2d transit */
+        /* transform: translate(100px, 120px); */
+        /* transform: rotate(-30deg); */
+        /* transform: scale(3, 3); */
+        /* transform: scaleX(0.01); */
+        /* transform: scaleY(3); */
+        /* transform: skewx(100deg); */
+        /* transform: skewY(50deg); */
+        /* transform: skew(20deg, 10deg); */
+        /* transform: matrix(2, -0.3, 2, 2, 2, 2); */
+
+        /* 3d translate */
+        /* transform: translate3d(500px, 100px, 40px); */
+        /* transform: scale3d(1, 2, 10); */
+        /* transform: rotate3d(50deg, 120deg, 40deg); */
+
+        /* transition:; */
+        transition: width 2s;
+        transition-delay: 1s;
+      }
+      .red:hover {
+        width: 25rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="red"></div>
+  </body>
+</html>

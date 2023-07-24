@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transition</title>
+    <style>
+      div {
+        background-color: chartreuse;
+        height: 200px;
+        width: 150px;
+
+        transition: width 3s;
+        transition: height 3s;
+      }
+      .box1 {
+        transition-timing-function: ease;
+      }
+      .box2 {
+        transition-timing-function: ease-in;
+      }
+      .box3 {
+        transition-timing-function: ease-out;
+      }
+      .box4 {
+        transition-timing-function: ease-in-out;
+      }
+      .box5 {
+        transition-timing-function: linear;
+      }
+      div:hover {
+        width: 500px;
+        height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">A</div>
+    <br />
+    <div class="box2">B</div>
+    <br />
+    <div class="box3">C</div>
+    <br />
+    <div class="box4">D</div>
+    <br />
+    <div class="box5">E</div>
+    <br />
+  </body>
+</html>
